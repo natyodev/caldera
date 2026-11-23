@@ -12,13 +12,13 @@
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U  |  I  |  O  |  P  |  \   |
 // | CAPS |  A  |  S  |  D  |  F  |  G  |     |  H  |  J  |  K  |  L  |  ;  |  ENT |
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M  |  ,  |  .  |  /  | APOS |
-// | CTRL | ALT | GUI | SPC | TAB | SPC |     | SPC | LOW |LARW |DARW |UARW | RARW |
+// | CTRL | ALT | SHFT| SPC | GUI | BSPC|     | SPC | LOW |LARW |DARW |UARW | RARW |
                         bindings = <
    &kp GRAVE  &kp N1    &kp N2    &kp N3     &kp N4     &kp N5               &kp N6     &kp N7  &kp N8     &kp N9    &kp N0    &kp BSPC
    &kp CAPS    &kp Q     &kp W     &kp E      &kp R      &kp T                &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSLH
    &kp TAB   &kp A     &kp S     &kp D      &kp F      &kp G                &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET
    &kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B                &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-   &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &kp LSHFT   &kp BSPC             &kp SPACE  &mo 1   &kp LARW   &kp UARW  &kp DARW  &kp RARW
+   &kp LCTRL  &kp LALT  &kp LSHFT &kp SPACE  &kp LGUI    &kp BSPC             &kp SPACE  &mo 1   &kp LARW   &kp UARW  &kp DARW  &kp RARW
                         >;
                 };
                 lower_layer {
@@ -32,6 +32,7 @@
    &trans  &kp UNDERSCORE &kp PLUS   &kp LBKT   &kp RBKT  &kp ASTERISK        &trans    &trans    &trans   &kp SQT   &kp DQT  &kp PIPE
    &trans    &kp HASH       &kp EQUAL    &kp LPAR      &kp RPAR  &kp EXCL       &trans    &kp LBKT  &kp RBKT &kp MINUS &kp EQUAL  &trans
    &trans    &trans         &trans     &trans        &trans    &kp DELETE           &trans    &trans    &kp LT   &kp GT   &trans  &trans
+   &trans    &trans         &trans     &trans        &trans    &trans               &trans    &trans    &trans   &trans   &trans  &trans
                         >;
                 };
         };
